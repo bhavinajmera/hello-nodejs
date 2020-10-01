@@ -1,4 +1,4 @@
 var os = require('os');
 require('http').createServer((req, res) => {
- res.end("Hostname is " +os.hostname())
+ res.end("Hostnames is " +os.hostname())
 }).listen(8080)
