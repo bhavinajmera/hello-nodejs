@@ -1,6 +1,6 @@
 # hello-nodejs
 
-oc new-build nodejs~https://github.com/bhavinajmera/hello-nodejs --name-nodejs-build
+oc new-build nodejs~https://github.com/bhavinajmera/hello-nodejs --name=nodejs-build
 
 
 oc get is
